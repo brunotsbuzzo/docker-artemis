@@ -8,8 +8,8 @@ services:
       ENABLE_JMX_EXPORTER: "true"
       ARTEMIS_MIN_MEMORY: "1512M"
       ARTEMIS_MAX_MEMORY: "2000M"
-      ARTEMIS_USERNAME: "test"
-      ARTEMIS_PASSWORD: "test"
+      ARTEMIS_USERNAME: "admin"
+      ARTEMIS_PASSWORD: "adminadmin"
     ports:
       - "8161:8161"
   node1:
@@ -20,8 +20,8 @@ services:
       ENABLE_JMX_EXPORTER: "true"
       ARTEMIS_MIN_MEMORY: "1512M"
       ARTEMIS_MAX_MEMORY: "2000M"
-      ARTEMIS_USERNAME: "test"
-      ARTEMIS_PASSWORD: "test"
+      ARTEMIS_USERNAME: "admin"
+      ARTEMIS_PASSWORD: "adminadmin"
     ports:
       - "8162:8161"
   node2:
@@ -32,7 +32,7 @@ services:
       ENABLE_JMX_EXPORTER: "true"
       ARTEMIS_MIN_MEMORY: "1512M"
       ARTEMIS_MAX_MEMORY: "2000M"
-      ARTEMIS_USERNAME: "test"
-      ARTEMIS_PASSWORD: "test"
+      ARTEMIS_USERNAME: "admin"
+      ARTEMIS_PASSWORD: "adminadmin"
     ports:
       - "8163:8161"
